@@ -5,24 +5,28 @@ import User from '../../assets/Icons/User.png';
 import Workout from '../../assets/Icons/Workout.png';
 import VideoIcon from '../../assets/Icons/videoIcon.png';
 import AudioIcon from '../../assets/Icons/audioIcon.png';
-import Iconschevron from '../../assets/Icons/Iconschevron.png'
+import Iconschevron from '../../assets/Icons/Iconschevron.png';
+import UserAvatar from '../../assets/Icons/usersAvatar.png';
 
 const ExerciseComponent = () => {
     return (
         <div class="bg-wild-sand-500 antialiased min-h-screen flex flex-col">
-            <div class="bg-white flex flex-row justify-between ">
+            <div class="bg-white flex flex-row justify-between h-14">
                 <div class="flex">
-                    <img src={Logo} alt="" />
-                    <span class="pt-5 mx-10">
-                        <button class=" text-black lg:flex">
+                    <span class="w-20">
+                        <img src={Logo} alt="" />
+                    </span>
+                    <span class="pt-3 mx-10 md:pl-10">
+                        <button class="text-rhino-light-500 text-sm font-roboto-medium inline-flex items-center md:flex md:ml-10 bg-wild-sand-500 px-2 py-1">
                             Library
                             <img src={Iconschevron} alt="" />
                         </button>
                     </span>
                 </div>
-                <span class="pt-5 mr-10">
-                    <button class=" text-black lg:flex">
-                        Joe Smith
+                <span class="pt-2 mr-10 flex">
+                    <img src={UserAvatar} alt="" class="object-contain h-10 pr-2" />
+                    <button class="text-mirage-500 text-sm font-roboto-medium inline-flex md:flex items-center pb-2">
+                        <span>Joe Smith</span>
                         <img src={Iconschevron} alt="" />
                     </button>
                 </span>
@@ -30,7 +34,7 @@ const ExerciseComponent = () => {
             <div class="relative flex flex-grow">
                 <nav
                     class="w-20 bg-white text-white h-100% px-7" >
-                    <ul class="mt-8">
+                    <ul class="mt-2">
                         <li>
                             <img src={Workout} alt="" class="py-4" />
                             <img src={Nutrition} alt="" class="py-4" />
@@ -39,9 +43,9 @@ const ExerciseComponent = () => {
                         </li>
                     </ul>
                 </nav>
-                <div class='overflow-x-auto w-980 py-10 px-7 flex-1 mr-20 ml-20'>
-                    <div class="grid grid-cols-2 gap-4 h-998 w-4/5  rounded divide-x bg-white">
-                        <div class=" bg-white pl-10 pr-8 pt-10 pb-5">
+                <div class='overflow-x-auto w-980 py-10 px-10 flex-1 ml lg:ml-20'>
+                    <div class="md:grid md:grid-cols-2 md:justify-center h-998 w-4/7 md:w-4/7 lg:w-4/5  rounded divide-x bg-white">
+                        <div class=" bg-white pl-10 pr-10 pt-10 pb-5">
                             <div class="mb-4 pr-8">
                                 <input class="bg-wild-sand-500 border-solid border border-alto-500 rounded w-full py-2 px-3 text-storm-dust-500 " id="username" type="text" placeholder="Name of the Exercise" />
                             </div>
@@ -156,10 +160,9 @@ const ExerciseComponent = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="flex justify-end bg-white w-4/5 pt-4 pb-4">
-                        <button class="text-rhino-500  mr-5 border-solid border border-martinique-500 rounded-full px-4 py-2 w-40" >Cancel</button>
-                        <button class="text-white bg-gray-900 mr-5 rounded-full px-4 py-2 w-40" >Save Exercise</button>
-
+                    <div class="flex justify-end bg-white w-4/7 md:4/7 lg:w-4/5 pt-4 pb-4">
+                        <button class="text-rhino-500 text-xs font-montserrat-semibold  mr-5 border-solid border border-martinique-500 rounded-full px-4 py-2 w-50 md:w-40" >Cancel</button>
+                        <button class="text-white text-xs font-montserrat-semibold bg-gray-900 mr-5 rounded-full px-4 py-2 w-50 md:w-40" >Save Exercise</button>
                     </div>
                 </div>
             </div>
