@@ -26,6 +26,13 @@ import userplus from '../../assets/Icons/userplus.svg';
 import video from '../../assets/Icons/video.svg';
 import phonecall from '../../assets/Icons/phonecall.svg';
 import avatar2 from '../../assets/Icons/avatar2.jpeg';
+import avatar3 from '../../assets/Icons/avatar3.jpeg';
+import morevertical from '../../assets/Icons/morevertical.svg';
+import navigation from '../../assets/Icons/navigation.svg';
+import mic from '../../assets/Icons/mic.svg';
+import paperclip from '../../assets/Icons/paperclip.svg';
+import smile from '../../assets/Icons/smile.svg';
+
 
 const GeeksChat = () => {
     return (
@@ -233,16 +240,16 @@ const GeeksChat = () => {
                                                 </span>
                                             </div>
                                         </li>
-                                        <li class="hover:bg-gray-100">
+                                        <li class="hover:bg-gray-100 bg-gray-100">
                                             <div class="flex justify-between justify-items-center">
                                                 <span class="py-4 pl-5">
                                                     <div class="flex">
                                                         <div class="">
-                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                            <img src={avatar4} alt="" class="rounded-full w-12" />
                                                         </div>
                                                         <div class="mx-2 truncate">
-                                                            <h5 class="text-sm">Olivia Cooper</h5>
-                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                            <h5 class="text-sm">Sharad Mishra</h5>
+                                                            <p class="text-wild-sand-700 text-sm">Currently chat with user component...</p>
                                                         </div>
                                                     </div>
                                                 </span>
@@ -253,10 +260,10 @@ const GeeksChat = () => {
                                                 <span class="py-4 pl-5">
                                                     <div class="flex">
                                                         <div class="">
-                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                            <img src={avatar3} alt="" class="rounded-full w-12" />
                                                         </div>
                                                         <div class="mx-2 truncate">
-                                                            <h5 class="text-sm">Olivia Cooper</h5>
+                                                            <h5 class="text-sm">Tanya Davies</h5>
                                                             <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
                                                         </div>
                                                     </div>
@@ -329,8 +336,8 @@ const GeeksChat = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="bg-white h-16 border-b border-solid flex flex-row justify-between w-full">
-                        <div class="flex">
+                    <div class="bg-white h-16 border-b border-solid flex flex-col justify-between w-full">
+                        <div class="flex justify-between">
                             <div class="flex justify-between justify-items-center">
                                 <span class="py-2 px-6">
                                     <div class="flex">
@@ -344,17 +351,123 @@ const GeeksChat = () => {
                                     </div>
                                 </span>
                             </div>
+                            <div class=" flex justify-between my-3">
+                                <span class="py-2 pr-6">
+                                    <img src={phonecall} alt="" class="rounded-full w-5" />
+                                </span>
+                                <span class="py-2 pr-6">
+                                    <img src={video} alt="" class="rounded-full w-5" />
+                                </span>
+                                <span class="py-2 pr-6">
+                                    <img src={userplus} alt="" class="rounded-full w-5" />
+                                </span>
+                            </div>
                         </div>
-                        <div class=" flex justify-between my-3">
-                            <span class="py-2 pr-6">
-                                <img src={phonecall} alt="" class="rounded-full w-5" />
-                            </span>
-                            <span class="py-2 pr-6">
-                                <img src={video} alt="" class="rounded-full w-5" />
-                            </span>
-                            <span class="py-2 pr-6">
-                                <img src={userplus} alt="" class="rounded-full w-5" />
-                            </span>
+                        <div class="px-4 py-4 h-100 mx-2.5">
+                            <div class="flex w-lg-40 mb-4">
+                                <img src={avatar4} alt="" class="rounded-full w-11 h-11" />
+                                <div class="mx-4">
+                                    <small class="text-smoky-500 subpixel-antialiased">sharad mishra , 09:35</small>
+                                    <div class="flex">
+                                        <div class="w-1/3 mt-2 rounded-lg flex bg-white border border-solid px-2 py-2 text-smoky-600">
+                                            <div class="p-3">
+                                                <p class="mb-0 text-dark text-sm subpixel-antialiased">
+                                                    I just start Bootstrap, SCSS and Gulp development
+                                                    &amp; setup github repository. simple example content
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="mt-2">
+                                            <span class="py-2 pr-6">
+                                                <img src={morevertical} alt="" class="rounded-full w-4" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex justify-end mb-4">
+                                <div class="flex w-lg-40">
+                                    <div class="text-right">
+                                        <small class="">09:39</small>
+                                        <div class="flex justify-end">
+                                            <div class="mt-2">
+                                                <span class="py-2 pr-6">
+                                                    <img src={morevertical} alt="" class="rounded-full w-4" />
+                                                </span>
+                                            </div>
+                                            <div class="mt-2 rounded-lg text-white bg-purple-heart-500 w-1/3 p-2  ">
+                                                <div class="text-left p-3">
+                                                    <p class="mb-0">
+                                                        I just start Bootstrap, SCSS and Gulp
+                                                        development &amp; setup github repository.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <img src={avatar4} alt="" class="rounded-full w-11 h-11 mx-2" />
+                                </div>
+                            </div>
+                            <div class="flex w-lg-40 mb-4">
+                                <img src={avatar4} alt="" class="rounded-full w-11 h-11" />
+                                <div class="mx-4">
+                                    <small class="text-smoky-500 subpixel-antialiased">sharad mishra , 09:42</small>
+                                    <div class="flex">
+                                        <div class="w-1/2 min-w-full mt-2 rounded-lg flex bg-white border border-solid px-2 py-2 text-smoky-600">
+                                            <div class="p-3">
+                                                <p class="mb-0 text-dark text-sm subpixel-antialiased">
+                                                    Thank you
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="mt-2">
+                                            <span class="py-2 pr-6">
+                                                <img src={morevertical} alt="" class="rounded-full w-4" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex justify-end mb-4">
+                                <div class="flex w-lg-40">
+                                    <div class="text-right">
+                                        <small class="">09:48</small>
+                                        <div class="flex justify-end">
+                                            <div class="mt-2">
+                                                <span class="py-2 pr-6">
+                                                    <img src={morevertical} alt="" class="rounded-full w-4" />
+                                                </span>
+                                            </div>
+                                            <div class="mt-2 rounded-lg text-white bg-purple-heart-500 w-1/2 min-w-full p-2  ">
+                                                <div class="text-left p-3">
+                                                    <p class="mb-0">
+                                                        You are most welcome.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <img src={avatar4} alt="" class="rounded-full w-11 h-11 mx-2" />
+                                </div>
+                            </div>
+                            <div class="px-1 ">
+                                <div class="bg-white  rounded-lg shadow-sm flex justify-between">
+                                    <input class="form-control border-0 form-control-simple no-resize px-2 py-5 w-full" placeholder="Type a New Message" />
+                                    <div class="p-5">
+                                        <img src={navigation} alt="" class="w-6" />
+                                    </div>
+                                </div>
+                                <div class="flex mt-4">
+                                    <div class=" flex">
+                                        <img src={smile} alt="" class="w-5 mr-2" />
+                                        <img src={paperclip} alt="" class="w-5 mx-2" />
+                                        <img src={mic} alt="" class="w-5 mx-2" />
+                                        <img src={morehorizontal} alt="" class="w-5 mx-2" />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
