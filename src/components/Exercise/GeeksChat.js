@@ -19,8 +19,13 @@ import giftbox from '../../assets/Icons/giftbox.png';
 import menu from '../../assets/Icons/menu.svg';
 import avatar1 from '../../assets/Icons/avatar1.jpeg';
 import bell from '../../assets/Icons/bell.svg';
-import chevronright from '../../assets/Icons/chevronright.svg';
-import image from '../../assets/Icons/image.svg';
+import morehorizontal from '../../assets/Icons/morehorizontal.svg';
+import edit from '../../assets/Icons/edit.svg';
+import avatar4 from '../../assets/Icons/avatar4.jpeg';
+import userplus from '../../assets/Icons/userplus.svg';
+import video from '../../assets/Icons/video.svg';
+import phonecall from '../../assets/Icons/phonecall.svg';
+import avatar2 from '../../assets/Icons/avatar2.jpeg';
 
 const GeeksChat = () => {
     return (
@@ -134,22 +139,22 @@ const GeeksChat = () => {
                 </div>
             </div>
             <div class="w-screen flex flex-col">
-                <div class="bg-white h-16  shadow-md flex flex-row justify-between">
+                <div class="bg-white h-16 flex flex-row justify-between">
                     <div class="flex">
-                        <span class="py-6 px-6">
+                        <span class="py-6 px-4">
                             <img src={menu} alt="" class="" />
                         </span>
                         <div class='flex justify-between py-3 whitespace-nowrap'>
                             <div class="flex rounded">
                                 <div class="flex border rounded">
-                                    <button class="flex items-center justify-center px-4">
+                                    <button class="flex items-center justify-center px-2">
                                         <svg class="w-6 h-6 text-gray-600" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 28 28">
                                             <path
                                                 d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" />
                                         </svg>
                                     </button>
-                                    <input type="text" class="px-4 py-2 w-40 md:w-48" placeholder="Search Entire Dashboard" />
+                                    <input type="text" class="py-2 w-40 md:w-48 border border-solid" placeholder="Search Entire Dashboard" />
                                 </div>
                             </div>
                         </div>
@@ -163,8 +168,199 @@ const GeeksChat = () => {
                         </span>
                     </div>
                 </div>
+                <div class="w-full h-full  border border-solid flex flex-row">
+                    <div class="w-1/3 h-full bg-white  border-r border-solid">
+                        <div class="bg-white">
+                            <div class="px-6 py-4 pt-3">
+                                <div class="flex justify-between justify-items-center">
+                                    <div class="">
+                                        <h1 class="text-2xl subpixel-antialiased">Chat</h1>
+                                    </div>
+                                    <div class="flex">
+                                        <span class=" mr-2 rounded-full flex items-center justify-center w-10 h-10 bg-purple-heart-500 ">
+                                            <img src={edit} alt="" class="rounded-full w-4 bg-purple-heart-500" />
+                                        </span>
+                                        <span class=" mr-2 rounded-full flex items-center justify-center w-10 h-10 bg-wild-sand-500 ">
+                                            <img src={settings} alt="" class="rounded-full w-4 bg-wild-sand-500" />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="my-4 mr-2">
+                                    <input type="search" class="w-full px-4 py-2 border-solid border border-alto-500 rounded" placeholder="Search people, group and messages" />
+                                </div>
+                                <div class="flex justify-between justify-items-center">
+                                    <span class="py-2 pr-6">
+                                        <div class="flex">
+                                            <div class="">
+                                                <img src={avatar1} alt="" class="rounded-full w-10" />
+                                            </div>
+                                            <div class="mx-2">
+                                                <h5 class="text-sm">Jitu Chauhan</h5>
+                                                <p class="text-wild-sand-700 text-sm">Online</p>
+                                            </div>
+                                        </div>
+                                    </span>
+                                    <span class=" rounded-full flex items-center justify-center w-10 h-10 ">
+                                        <img src={morehorizontal} alt="" class="rounded-full" />
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="flex flex-row justify-start border-b border-grey-500 ">
+                                <li class="mx-3">
+                                    <a class="text-purple-heart-500 py-2" id="recent-tab" data-bs-toggle="pill" href="#recent" role="tab" aria-controls="recent" aria-selected="true">Recent</a>
+                                </li>
+                                <li class="mx-4">
+                                    <a class="text-wild-sand-800" id="contact-tab" data-bs-toggle="pill" href="#contact" role="tab" aria-controls="contact" aria-selected="true">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="overflow-y-auto h-100 ">
+                            <div class="">
+                                <div class="">
+                                    <ul class="flex flex-col justify-start border-b border-grey-500">
+                                        <li class="hover:bg-gray-100">
+                                            <div class="flex justify-between justify-items-center">
+                                                <span class="py-4 pl-5">
+                                                    <div class="flex">
+                                                        <div class="">
+                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                        </div>
+                                                        <div class="mx-2 truncate">
+                                                            <h5 class="text-sm">Olivia Cooper</h5>
+                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                        </div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="hover:bg-gray-100">
+                                            <div class="flex justify-between justify-items-center">
+                                                <span class="py-4 pl-5">
+                                                    <div class="flex">
+                                                        <div class="">
+                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                        </div>
+                                                        <div class="mx-2 truncate">
+                                                            <h5 class="text-sm">Olivia Cooper</h5>
+                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                        </div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="hover:bg-gray-100">
+                                            <div class="flex justify-between justify-items-center">
+                                                <span class="py-4 pl-5">
+                                                    <div class="flex">
+                                                        <div class="">
+                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                        </div>
+                                                        <div class="mx-2 truncate">
+                                                            <h5 class="text-sm">Olivia Cooper</h5>
+                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                        </div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="hover:bg-gray-100">
+                                            <div class="flex justify-between justify-items-center">
+                                                <span class="py-4 pl-5">
+                                                    <div class="flex">
+                                                        <div class="">
+                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                        </div>
+                                                        <div class="mx-2 truncate">
+                                                            <h5 class="text-sm">Olivia Cooper</h5>
+                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                        </div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="hover:bg-gray-100">
+                                            <div class="flex justify-between justify-items-center">
+                                                <span class="py-4 pl-5">
+                                                    <div class="flex">
+                                                        <div class="">
+                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                        </div>
+                                                        <div class="mx-2 truncate">
+                                                            <h5 class="text-sm">Olivia Cooper</h5>
+                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                        </div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="hover:bg-gray-100">
+                                            <div class="flex justify-between justify-items-center">
+                                                <span class="py-4 pl-5">
+                                                    <div class="flex">
+                                                        <div class="">
+                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                        </div>
+                                                        <div class="mx-2 truncate">
+                                                            <h5 class="text-sm">Olivia Cooper</h5>
+                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                        </div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="hover:bg-gray-100">
+                                            <div class="flex justify-between justify-items-center">
+                                                <span class="py-4 pl-5">
+                                                    <div class="flex">
+                                                        <div class="">
+                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                        </div>
+                                                        <div class="mx-2 truncate">
+                                                            <h5 class="text-sm">Olivia Cooper</h5>
+                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                        </div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white h-16 border-b border-solid flex flex-row justify-between w-full">
+                        <div class="flex">
+                            <div class="flex justify-between justify-items-center">
+                                <span class="py-2 px-6">
+                                    <div class="flex">
+                                        <div class="">
+                                            <img src={avatar4} alt="" class="rounded-full w-11" />
+                                        </div>
+                                        <div class="mx-2">
+                                            <h5 class="text-xs md:text-md">Sharad Mishra</h5>
+                                            <p class="text-wild-sand-700 text-xs md:text-sm">Online</p>
+                                        </div>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class=" flex justify-between my-3">
+                            <span class="py-2 pr-6">
+                                <img src={phonecall} alt="" class="rounded-full w-5" />
+                            </span>
+                            <span class="py-2 pr-6">
+                                <img src={video} alt="" class="rounded-full w-5" />
+                            </span>
+                            <span class="py-2 pr-6">
+                                <img src={userplus} alt="" class="rounded-full w-5" />
+                            </span>
+                        </div>
+                    </div>
+                </div>
 
             </div>
+
 
         </div>
     )
