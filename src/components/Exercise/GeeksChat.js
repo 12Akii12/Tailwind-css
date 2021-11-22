@@ -36,116 +36,117 @@ import smile from '../../assets/Icons/smile.svg';
 
 const GeeksChat = () => {
     return (
-        <div class="min-h-screen antialiased flex flex-row bg-gray-100">
-            <div class="flex flex-col w-1/5 bg-haiti-500 overflow-hidden">
-                <div class="flex mt-5 ml-7 ">
-                    <span class=" h-1/3">
-                        <img src={logoInverse} alt="" />
-                    </span>
-                </div>
-                <ul class="flex flex-col py-4 ml-4">
-                    <li>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={Home} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Dashboard</span>
-                            <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
-                        </a>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={creditcard} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Courses</span>
-                            <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
-                        </a>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={user} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">User</span>
-                            <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
-                        </a>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={bookopen} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">CMS</span>
-                            <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
-                        </a>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={file} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Project</span>
-                            <span class="ml-auto mr-6 text-sm bg-newTagColor-500 rounded-lg px-2 py-px text-white">New</span>
-                            <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
-                        </a>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800 ">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={lock} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Authentication</span>
-                            <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
-                        </a>
-                    </li>
-                    <li>
-                        <br class="divide-y-4 divide-white divide-opacity-25 shadow-white-md" />
-                    </li>
-                    <li>
-                        <span class="text-navHeadingColor-500 ml-4">APPS</span>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={message} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Chat</span>
-                        </a>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800 ">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={columns} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Task</span>
-                        </a>
-                    </li>
-                    <li>
-                        <br class="divide-y-4 divide-white divide-opacity-25 shadow-white-md" />
-                    </li>
-                    <li>
-                        <span class="text-navHeadingColor-500 ml-4">COMPONENTS</span>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={database} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Tables</span>
-                            <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
-                        </a>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800 ">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={helpcircle} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Help Center</span>
-                            <span class="ml-2 mr-6 text-sm bg-helpCenterColor-500 rounded-lg px-2 py-px text-white">Pro</span>
-                        </a>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={settings} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Site Setting</span>
-                            <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
-                        </a>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={cornerleftdown} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Site Setting</span>
-                            <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
-                        </a>
-                    </li>
-                    <li>
-                        <br class="divide-y-4 divide-white divide-opacity-25 shadow-white-md" />
-                    </li>
-                    <li>
-                        <span class="text-navHeadingColor-500 ml-4">DOCUMENTATIONS</span>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={folder} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Documentation</span>
-                        </a>
-                        <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800 ">
-                            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={gitpllrequest} alt="" /></span>
-                            <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Changelog</span>
-                            <span class="ml-2 mr-6 text-sm bg-newTagColor-500 rounded-lg px-2 py-px text-white">2.2.2</span>
-                        </a>
-                    </li>
-                </ul>
-                <div class="card bg-purple-heart-500 rounded-lg shadow-none text-center mx-4 my-8">
-                    <div class="card-body py-6">
-                        <img src={giftbox} alt="" class="mx-auto" />
-                        <div class="mt-4">
-                            <h5 class="text-white"> Unlimited Access</h5>
-                            <p class="text-smoky-300 mt-4">Upgrade your plan from a Free trial, to select ‘Business Plan’. Start Now</p>
-                            <button class="bg-white text-black py-2 px-2 rounded-md mt-4 subpixel-antialiased">Upgrade Now</button>
+        <div class="min-h-auto antialiased flex flex-row bg-gray-100">
+            <div class="flex flex-col w-0 md:w-1/5 bg-haiti-500 overflow-hidden">
+                <div class="h-screen overflow-y-auto">
+                    <div class="flex mt-5 ml-7 ">
+                        <span class=" h-1/3">
+                            <img src={logoInverse} alt="" />
+                        </span>
+                    </div>
+                    <ul class="flex flex-col py-4 ml-4">
+                        <li>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={Home} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Dashboard</span>
+                                <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
+                            </a>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={creditcard} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Courses</span>
+                                <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
+                            </a>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={user} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">User</span>
+                                <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
+                            </a>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={bookopen} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">CMS</span>
+                                <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
+                            </a>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={file} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Project</span>
+                                <span class="ml-auto mr-6 text-sm bg-newTagColor-500 rounded-lg px-2 py-px text-white">New</span>
+                                <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
+                            </a>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800 ">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={lock} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Authentication</span>
+                                <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
+                            </a>
+                        </li>
+                        <li>
+                            <br class="divide-y-4 divide-white divide-opacity-25 shadow-white-md" />
+                        </li>
+                        <li>
+                            <span class="text-navHeadingColor-500 ml-4">APPS</span>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={message} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Chat</span>
+                            </a>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800 ">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={columns} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Task</span>
+                            </a>
+                        </li>
+                        <li>
+                            <br class="divide-y-4 divide-white divide-opacity-25 shadow-white-md" />
+                        </li>
+                        <li>
+                            <span class="text-navHeadingColor-500 ml-4">COMPONENTS</span>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={database} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Tables</span>
+                                <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
+                            </a>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800 ">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={helpcircle} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Help Center</span>
+                                <span class="ml-2 mr-6 text-sm bg-helpCenterColor-500 rounded-lg px-2 py-px text-white">Pro</span>
+                            </a>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={settings} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Site Setting</span>
+                                <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
+                            </a>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={cornerleftdown} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Site Setting</span>
+                                <span class="ml-auto mr-6"><img src={chevrondown} alt="" /></span>
+                            </a>
+                        </li>
+                        <li>
+                            <br class="divide-y-4 divide-white divide-opacity-25 shadow-white-md" />
+                        </li>
+                        <li>
+                            <span class="text-navHeadingColor-500 ml-4">DOCUMENTATIONS</span>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={folder} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Documentation</span>
+                            </a>
+                            <a href="#" class="flex flex-row items-center h-10 transform  transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800 ">
+                                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><img src={gitpllrequest} alt="" /></span>
+                                <span class="text-sm font-medium text-navColor-500 inline-block hover:text-white">Changelog</span>
+                                <span class="ml-2 mr-6 text-sm bg-newTagColor-500 rounded-lg px-2 py-px text-white">2.2.2</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="card bg-purple-heart-500 rounded-lg shadow-none text-center mx-4 my-8">
+                        <div class="card-body py-6">
+                            <img src={giftbox} alt="" class="mx-auto" />
+                            <div class="mt-4">
+                                <h5 class="text-white"> Unlimited Access</h5>
+                                <p class="text-smoky-300 mt-4">Upgrade your plan from a Free trial, to select ‘Business Plan’. Start Now</p>
+                                <button class="bg-white text-black py-2 px-2 rounded-md mt-4 subpixel-antialiased">Upgrade Now</button>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-            <div class="w-screen flex flex-col">
+            <div class="w-screen flex flex-col overflow-hidden">
                 <div class="bg-white h-16 flex flex-row justify-between">
                     <div class="flex">
                         <span class="py-6 px-4">
@@ -175,8 +176,8 @@ const GeeksChat = () => {
                         </span>
                     </div>
                 </div>
-                <div class="w-full h-full  border border-solid flex flex-row">
-                    <div class="w-1/3 h-full bg-white  border-r border-solid">
+                <div class="w-full h-full border border-solid flex flex-row ">
+                    <div class="w-full md:w-1/3 h-screen bg-white  border-r border-solid">
                         <div class="bg-white">
                             <div class="px-6 py-4 pt-3">
                                 <div class="flex justify-between justify-items-center">
@@ -221,123 +222,150 @@ const GeeksChat = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div class="overflow-y-auto h-100 ">
-                            <div class="">
-                                <div class="">
-                                    <ul class="flex flex-col justify-start border-b border-grey-500">
-                                        <li class="hover:bg-gray-100">
-                                            <div class="flex justify-between justify-items-center">
-                                                <span class="py-4 pl-5">
-                                                    <div class="flex">
-                                                        <div class="">
-                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
-                                                        </div>
-                                                        <div class="mx-2 truncate">
-                                                            <h5 class="text-sm">Olivia Cooper</h5>
-                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
-                                                        </div>
+                        <div class="overflow-y-auto h-4/6">
+                            <div class="overflow-y-auto ">
+                                <ul class="flex flex-col justify-start border-b border-grey-500">
+                                    <li class="hover:bg-gray-100">
+                                        <div class="flex justify-between justify-items-center">
+                                            <span class="py-4 pl-5">
+                                                <div class="flex">
+                                                    <div class="">
+                                                        <img src={avatar2} alt="" class="rounded-full w-12" />
                                                     </div>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li class="hover:bg-gray-100 bg-gray-100">
-                                            <div class="flex justify-between justify-items-center">
-                                                <span class="py-4 pl-5">
-                                                    <div class="flex">
-                                                        <div class="">
-                                                            <img src={avatar4} alt="" class="rounded-full w-12" />
-                                                        </div>
-                                                        <div class="mx-2 truncate">
-                                                            <h5 class="text-sm">Sharad Mishra</h5>
-                                                            <p class="text-wild-sand-700 text-sm">Currently chat with user component...</p>
-                                                        </div>
+                                                    <div class="mx-2 truncate">
+                                                        <h5 class="text-sm">Olivia Cooper</h5>
+                                                        <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
                                                     </div>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li class="hover:bg-gray-100">
-                                            <div class="flex justify-between justify-items-center">
-                                                <span class="py-4 pl-5">
-                                                    <div class="flex">
-                                                        <div class="">
-                                                            <img src={avatar3} alt="" class="rounded-full w-12" />
-                                                        </div>
-                                                        <div class="mx-2 truncate">
-                                                            <h5 class="text-sm">Tanya Davies</h5>
-                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
-                                                        </div>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="hover:bg-gray-100 bg-gray-100">
+                                        <div class="flex justify-between justify-items-center">
+                                            <span class="py-4 pl-5">
+                                                <div class="flex">
+                                                    <div class="">
+                                                        <img src={avatar4} alt="" class="rounded-full w-12" />
                                                     </div>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li class="hover:bg-gray-100">
-                                            <div class="flex justify-between justify-items-center">
-                                                <span class="py-4 pl-5">
-                                                    <div class="flex">
-                                                        <div class="">
-                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
-                                                        </div>
-                                                        <div class="mx-2 truncate">
-                                                            <h5 class="text-sm">Olivia Cooper</h5>
-                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
-                                                        </div>
+                                                    <div class="mx-2 truncate">
+                                                        <h5 class="text-sm">Sharad Mishra</h5>
+                                                        <p class="text-wild-sand-700 text-sm">Currently chat with user component...</p>
                                                     </div>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li class="hover:bg-gray-100">
-                                            <div class="flex justify-between justify-items-center">
-                                                <span class="py-4 pl-5">
-                                                    <div class="flex">
-                                                        <div class="">
-                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
-                                                        </div>
-                                                        <div class="mx-2 truncate">
-                                                            <h5 class="text-sm">Olivia Cooper</h5>
-                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
-                                                        </div>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="hover:bg-gray-100">
+                                        <div class="flex justify-between justify-items-center">
+                                            <span class="py-4 pl-5">
+                                                <div class="flex">
+                                                    <div class="">
+                                                        <img src={avatar3} alt="" class="rounded-full w-12" />
                                                     </div>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li class="hover:bg-gray-100">
-                                            <div class="flex justify-between justify-items-center">
-                                                <span class="py-4 pl-5">
-                                                    <div class="flex">
-                                                        <div class="">
-                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
-                                                        </div>
-                                                        <div class="mx-2 truncate">
-                                                            <h5 class="text-sm">Olivia Cooper</h5>
-                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
-                                                        </div>
+                                                    <div class="mx-2 truncate">
+                                                        <h5 class="text-sm">Tanya Davies</h5>
+                                                        <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
                                                     </div>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li class="hover:bg-gray-100">
-                                            <div class="flex justify-between justify-items-center">
-                                                <span class="py-4 pl-5">
-                                                    <div class="flex">
-                                                        <div class="">
-                                                            <img src={avatar2} alt="" class="rounded-full w-12" />
-                                                        </div>
-                                                        <div class="mx-2 truncate">
-                                                            <h5 class="text-sm">Olivia Cooper</h5>
-                                                            <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
-                                                        </div>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="hover:bg-gray-100">
+                                        <div class="flex justify-between justify-items-center">
+                                            <span class="py-4 pl-5">
+                                                <div class="flex">
+                                                    <div class="">
+                                                        <img src={avatar2} alt="" class="rounded-full w-12" />
                                                     </div>
-                                                </span>
-                                            </div>
-                                        </li>
+                                                    <div class="mx-2 truncate">
+                                                        <h5 class="text-sm">Olivia Cooper</h5>
+                                                        <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                    </div>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="hover:bg-gray-100">
+                                        <div class="flex justify-between justify-items-center">
+                                            <span class="py-4 pl-5">
+                                                <div class="flex">
+                                                    <div class="">
+                                                        <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                    </div>
+                                                    <div class="mx-2 truncate">
+                                                        <h5 class="text-sm">Olivia Cooper</h5>
+                                                        <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                    </div>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="hover:bg-gray-100">
+                                        <div class="flex justify-between justify-items-center">
+                                            <span class="py-4 pl-5">
+                                                <div class="flex">
+                                                    <div class="">
+                                                        <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                    </div>
+                                                    <div class="mx-2 truncate">
+                                                        <h5 class="text-sm">Olivia Cooper</h5>
+                                                        <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                    </div>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="hover:bg-gray-100">
+                                        <div class="flex justify-between justify-items-center">
+                                            <span class="py-4 pl-5">
+                                                <div class="flex">
+                                                    <div class="">
+                                                        <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                    </div>
+                                                    <div class="mx-2 truncate">
+                                                        <h5 class="text-sm">Olivia Cooper</h5>
+                                                        <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                    </div>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="hover:bg-gray-100">
+                                        <div class="flex justify-between justify-items-center">
+                                            <span class="py-4 pl-5">
+                                                <div class="flex">
+                                                    <div class="">
+                                                        <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                    </div>
+                                                    <div class="mx-2 truncate">
+                                                        <h5 class="text-sm">Olivia Cooper</h5>
+                                                        <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                    </div>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </li><li class="hover:bg-gray-100">
+                                        <div class="flex justify-between justify-items-center">
+                                            <span class="py-4 pl-5">
+                                                <div class="flex">
+                                                    <div class="">
+                                                        <img src={avatar2} alt="" class="rounded-full w-12" />
+                                                    </div>
+                                                    <div class="mx-2 truncate">
+                                                        <h5 class="text-sm">Olivia Cooper</h5>
+                                                        <p class="text-wild-sand-700 text-sm">I m for unread message component...</p>
+                                                    </div>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </li>
 
-                                    </ul>
-                                </div>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="bg-white h-16 border-b border-solid flex flex-col justify-between w-full">
-                        <div class="flex justify-between">
+                    <div class="bg-grey-100 h-screen border-b border-solid flex flex-col justify-between w-0 md:w-full overflow-hidden relative">
+                        <div class="flex justify-between bg-white overflow-hidden">
                             <div class="flex justify-between justify-items-center">
                                 <span class="py-2 px-6">
                                     <div class="flex">
@@ -363,93 +391,95 @@ const GeeksChat = () => {
                                 </span>
                             </div>
                         </div>
-                        <div class="px-4 py-4 h-100 mx-2.5">
-                            <div class="flex w-lg-40 mb-4">
-                                <img src={avatar4} alt="" class="rounded-full w-11 h-11" />
-                                <div class="mx-4">
-                                    <small class="text-smoky-500 subpixel-antialiased">sharad mishra , 09:35</small>
-                                    <div class="flex">
-                                        <div class="w-1/3 mt-2 rounded-lg flex bg-white border border-solid px-2 py-2 text-smoky-600">
-                                            <div class="p-3">
-                                                <p class="mb-0 text-dark text-sm subpixel-antialiased">
-                                                    I just start Bootstrap, SCSS and Gulp development
-                                                    &amp; setup github repository. simple example content
-                                                </p>
+                        <div class="px-4 py-4 h-screen mx-2.5 overflow-hidden">
+                            <div class="h-3/5 overflow-y-auto">
+                                <div class="flex w-lg-40 mb-4">
+                                    <img src={avatar4} alt="" class="rounded-full w-11 h-11" />
+                                    <div class="mx-4">
+                                        <small class="text-smoky-500 subpixel-antialiased">sharad mishra , 09:35</small>
+                                        <div class="flex">
+                                            <div class="w-full md:w-1/3 mt-2 rounded-lg flex bg-white border border-solid px-2 py-2 text-smoky-600">
+                                                <div class="p-3">
+                                                    <p class="mb-0 text-dark text-sm subpixel-antialiased">
+                                                        I just start Bootstrap, SCSS and Gulp development
+                                                        &amp; setup github repository. simple example content
+                                                    </p>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="mt-2">
-                                            <span class="py-2 pr-6">
-                                                <img src={morevertical} alt="" class="rounded-full w-4" />
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex justify-end mb-4">
-                                <div class="flex w-lg-40">
-                                    <div class="text-right">
-                                        <small class="">09:39</small>
-                                        <div class="flex justify-end">
                                             <div class="mt-2">
                                                 <span class="py-2 pr-6">
                                                     <img src={morevertical} alt="" class="rounded-full w-4" />
                                                 </span>
                                             </div>
-                                            <div class="mt-2 rounded-lg text-white bg-purple-heart-500 w-1/3 p-2  ">
-                                                <div class="text-left p-3">
-                                                    <p class="mb-0">
-                                                        I just start Bootstrap, SCSS and Gulp
-                                                        development &amp; setup github repository.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex justify-end mb-4">
+                                    <div class="flex w-lg-40">
+                                        <div class="text-right">
+                                            <small class="">09:39</small>
+                                            <div class="flex justify-end">
+                                                <div class="mt-2">
+                                                    <span class="py-2 pr-6">
+                                                        <img src={morevertical} alt="" class="rounded-full w-4" />
+                                                    </span>
+                                                </div>
+                                                <div class="mt-2 rounded-lg text-white bg-purple-heart-500 md:w-1/3 p-2  ">
+                                                    <div class="text-left p-3">
+                                                        <p class="mb-0">
+                                                            I just start Bootstrap, SCSS and Gulp
+                                                            development &amp; setup github repository.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <img src={avatar4} alt="" class="rounded-full w-11 h-11 mx-2" />
+                                    </div>
+                                </div>
+                                <div class="flex w-lg-40 mb-4">
+                                    <img src={avatar4} alt="" class="rounded-full w-11 h-11" />
+                                    <div class="mx-4">
+                                        <small class="text-smoky-500 subpixel-antialiased">sharad mishra , 09:42</small>
+                                        <div class="flex">
+                                            <div class="w-1/2 min-w-full mt-2 rounded-lg flex bg-white border border-solid px-2 py-2 text-smoky-600">
+                                                <div class="p-3">
+                                                    <p class="mb-0 text-dark text-sm subpixel-antialiased">
+                                                        Thank you
                                                     </p>
                                                 </div>
                                             </div>
-
-                                        </div>
-                                    </div>
-                                    <img src={avatar4} alt="" class="rounded-full w-11 h-11 mx-2" />
-                                </div>
-                            </div>
-                            <div class="flex w-lg-40 mb-4">
-                                <img src={avatar4} alt="" class="rounded-full w-11 h-11" />
-                                <div class="mx-4">
-                                    <small class="text-smoky-500 subpixel-antialiased">sharad mishra , 09:42</small>
-                                    <div class="flex">
-                                        <div class="w-1/2 min-w-full mt-2 rounded-lg flex bg-white border border-solid px-2 py-2 text-smoky-600">
-                                            <div class="p-3">
-                                                <p class="mb-0 text-dark text-sm subpixel-antialiased">
-                                                    Thank you
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="mt-2">
-                                            <span class="py-2 pr-6">
-                                                <img src={morevertical} alt="" class="rounded-full w-4" />
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex justify-end mb-4">
-                                <div class="flex w-lg-40">
-                                    <div class="text-right">
-                                        <small class="">09:48</small>
-                                        <div class="flex justify-end">
                                             <div class="mt-2">
                                                 <span class="py-2 pr-6">
                                                     <img src={morevertical} alt="" class="rounded-full w-4" />
                                                 </span>
                                             </div>
-                                            <div class="mt-2 rounded-lg text-white bg-purple-heart-500 w-1/2 min-w-full p-2  ">
-                                                <div class="text-left p-3">
-                                                    <p class="mb-0">
-                                                        You are most welcome.
-                                                    </p>
-                                                </div>
-                                            </div>
-
                                         </div>
                                     </div>
-                                    <img src={avatar4} alt="" class="rounded-full w-11 h-11 mx-2" />
+                                </div>
+                                <div class="flex justify-end mb-4">
+                                    <div class="flex w-lg-40">
+                                        <div class="text-right">
+                                            <small class="">09:48</small>
+                                            <div class="flex justify-end">
+                                                <div class="mt-2">
+                                                    <span class="py-2 pr-6">
+                                                        <img src={morevertical} alt="" class="rounded-full w-4" />
+                                                    </span>
+                                                </div>
+                                                <div class="mt-2 rounded-lg text-white bg-purple-heart-500 w-1/2 min-w-full p-2  ">
+                                                    <div class="text-left p-3">
+                                                        <p class="mb-0">
+                                                            You are most welcome.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <img src={avatar4} alt="" class="rounded-full w-11 h-11 mx-2" />
+                                    </div>
                                 </div>
                             </div>
                             <div class="px-1 ">
