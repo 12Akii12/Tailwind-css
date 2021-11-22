@@ -398,9 +398,9 @@ const GeeksChat = () => {
                                     <div class="mx-4">
                                         <small class="text-smoky-500 subpixel-antialiased">sharad mishra , 09:35</small>
                                         <div class="flex">
-                                            <div class="w-full md:w-1/3 mt-2 rounded-lg flex bg-white border border-solid px-2 py-2 text-smoky-600">
+                                            <div class="w-full md:w-1/3  mt-2 rounded-lg flex bg-white border border-solid px-2 py-2 text-smoky-600">
                                                 <div class="p-3">
-                                                    <p class="mb-0 text-dark text-sm subpixel-antialiased">
+                                                    <p class="mb-0 text-dark md:text-xs lg:text-sm subpixel-antialiased">
                                                         I just start Bootstrap, SCSS and Gulp development
                                                         &amp; setup github repository. simple example content
                                                     </p>
@@ -426,7 +426,7 @@ const GeeksChat = () => {
                                                 </div>
                                                 <div class="mt-2 rounded-lg text-white bg-purple-heart-500 md:w-1/3 p-2  ">
                                                     <div class="text-left p-3">
-                                                        <p class="mb-0">
+                                                        <p class="mb-0 md:text-xs lg:text-sm subpixel-antialiased">
                                                             I just start Bootstrap, SCSS and Gulp
                                                             development &amp; setup github repository.
                                                         </p>
@@ -445,7 +445,7 @@ const GeeksChat = () => {
                                         <div class="flex">
                                             <div class="w-1/2 min-w-full mt-2 rounded-lg flex bg-white border border-solid px-2 py-2 text-smoky-600">
                                                 <div class="p-3">
-                                                    <p class="mb-0 text-dark text-sm subpixel-antialiased">
+                                                    <p class="mb-0 text-dark text-sm subpixel-antialiased md:text-xs lg:text-sm">
                                                         Thank you
                                                     </p>
                                                 </div>
@@ -470,7 +470,7 @@ const GeeksChat = () => {
                                                 </div>
                                                 <div class="mt-2 rounded-lg text-white bg-purple-heart-500 w-1/2 min-w-full p-2  ">
                                                     <div class="text-left p-3">
-                                                        <p class="mb-0">
+                                                        <p class="mb-0 md:text-xs lg:text-sm subpixel-antialiased">
                                                             You are most welcome.
                                                         </p>
                                                     </div>
